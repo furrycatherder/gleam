@@ -9,6 +9,7 @@ members = [
     "test-output",
     "test-package-compiler",
     "test-project-compiler",
+    "test/cps-test",
 ]
 
 # common dependencies

@@ -530,6 +530,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "cps-test"
+version = "0.1.0"
+dependencies = [
+ "camino",
+ "gleam-core",
+ "vec1",
+]
+
+[[package]]
 name = "cpufeatures"
 version = "0.2.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -5,6 +5,7 @@ mod untyped;
 #[cfg(test)]
 mod tests;
 pub mod visit;
+pub mod cps;
 
 pub use self::typed::TypedExpr;
 pub use self::untyped::{FunctionLiteralKind, UntypedExpr};
